@@ -1,4 +1,4 @@
-# train_model.py
+# train_csplda.py
 """
 train_model.py
 ====================
