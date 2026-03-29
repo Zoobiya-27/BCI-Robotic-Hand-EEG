@@ -16,7 +16,7 @@ The **CSP + LDA pipeline** was chosen for its low latency and robust performance
 ## Project Overview
 
 ### Phase 1 — Model Training with Public Dataset
-We trained a binary classification model using the **PhysioNet Motor Imagery EEG Dataset**.
+We trained a binary classification model using the **PhysioNet Motor Imagery EEG Dataset** https://www.physionet.org/content/eegmmidb/1.0.0/.
 
 - Subject 85's data was used for training the real-time model
 - Achieved **80% real-time accuracy** controlling a robotic hand via Raspberry Pi
