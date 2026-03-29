@@ -99,22 +99,22 @@ The CSP+LDA pipeline provided **low-latency classification**, enabling smooth ro
 
 **I. Preprocess EEG Data**
 ```bash
-python eeg_utils.py
+python scripts/eeg_utils.py
 ```
 
 **II. Train Classification Model**
 ```bash
-python train_csplda.py
+python scripts/train_csplda.py
 ```
 
 **III. Run Real-time Prediction**
 ```bash
-realtime_prediction.py
+python scripts/realtime_prediction.py
 ```
 
 **IV. Demonstrate Robotic Control**
 ```bash
-demo_robotic_hand.py
+python scripts/demo_robotic_hand.py
 ```
 
 ---
